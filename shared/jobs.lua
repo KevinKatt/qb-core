@@ -2,95 +2,95 @@ QBShared = QBShared or {}
 QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
 QBShared.Jobs = {
 	['unemployed'] = {
-		label = 'Civilian',
+		label = 'Arbetslös',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Freelancer',
+                name = 'A-Kassa',
                 payment = 10
             },
         },
 	},
 	['police'] = {
-		label = 'Law Enforcement',
+		label = 'Polismyndigheten',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Polisaspirant',
                 payment = 50
             },
 			['1'] = {
-                name = 'Officer',
+                name = 'Polisassistent',
                 payment = 75
             },
 			['2'] = {
-                name = 'Sergeant',
+                name = 'Polisinspektör',
                 payment = 100
             },
 			['3'] = {
-                name = 'Lieutenant',
+                name = 'Biträdande Rikspolischef',
                 payment = 125
             },
 			['4'] = {
-                name = 'Chief',
+                name = 'Rikspolischef',
 				isboss = true,
                 payment = 150
             },
         },
 	},
 	['ambulance'] = {
-		label = 'EMS',
+		label = 'Sjukvårdare',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Praktikant',
                 payment = 50
             },
 			['1'] = {
-                name = 'Paramedic',
+                name = 'Ambulansförare',
                 payment = 75
             },
 			['2'] = {
-                name = 'Doctor',
+                name = 'Doktor',
                 payment = 100
             },
 			['3'] = {
-                name = 'Surgeon',
+                name = 'Kirurg',
                 payment = 125
             },
 			['4'] = {
-                name = 'Chief',
+                name = 'Sjukvårdarchef',
 				isboss = true,
                 payment = 150
             },
         },
 	},
 	['realestate'] = {
-		label = 'Real Estate',
+		label = 'Fastighetsmäklare',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Praktikant',
                 payment = 50
             },
 			['1'] = {
-                name = 'House Sales',
+                name = 'Husförsäljare',
                 payment = 75
             },
 			['2'] = {
-                name = 'Business Sales',
+                name = 'Företagssäljare',
                 payment = 100
             },
 			['3'] = {
-                name = 'Broker',
+                name = 'Mäklare',
                 payment = 125
             },
 			['4'] = {
-                name = 'Manager',
+                name = 'VD',
 				isboss = true,
                 payment = 150
             },
@@ -102,119 +102,119 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Praktikant',
                 payment = 50
             },
 			['1'] = {
-                name = 'Driver',
+                name = 'Taxiförare',
                 payment = 75
             },
 			['2'] = {
-                name = 'Event Driver',
+                name = 'Evenemang Chaufför',
                 payment = 100
             },
 			['3'] = {
-                name = 'Sales',
+                name = 'Försäljning',
                 payment = 125
             },
 			['4'] = {
-                name = 'Manager',
+                name = 'VD',
 				isboss = true,
                 payment = 150
             },
         },
 	},
      ['bus'] = {
-		label = 'Bus',
+		label = 'Busschaufför',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Driver',
+                name = 'Chaufför',
                 payment = 50
             },
 		},
 	},
 	['cardealer'] = {
-		label = 'Vehicle Dealer',
+		label = 'Bilhandlare',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Praktikant',
                 payment = 50
             },
 			['1'] = {
-                name = 'Showroom Sales',
+                name = 'Showroom Försäljning',
                 payment = 75
             },
 			['2'] = {
-                name = 'Business Sales',
+                name = 'Företags försäljning',
                 payment = 100
             },
 			['3'] = {
-                name = 'Finance',
+                name = 'Finans',
                 payment = 125
             },
 			['4'] = {
-                name = 'Manager',
+                name = 'VD',
 				isboss = true,
                 payment = 150
             },
         },
 	},
 	['mechanic'] = {
-		label = 'Mechanic',
+		label = 'Mekonomen',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Praktikant',
                 payment = 50
             },
 			['1'] = {
-                name = 'Novice',
+                name = 'Nybörjare',
                 payment = 75
             },
 			['2'] = {
-                name = 'Experienced',
+                name = 'Erfaren',
                 payment = 100
             },
 			['3'] = {
-                name = 'Advanced',
+                name = 'Special',
                 payment = 125
             },
 			['4'] = {
-                name = 'Manager',
+                name = 'VD',
 				isboss = true,
                 payment = 150
             },
         },
 	},
 	['judge'] = {
-		label = 'Honorary',
+		label = 'Tingsrätten',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Judge',
+                name = 'Domare',
                 payment = 100
             },
         },
 	},
 	['lawyer'] = {
-		label = 'Law Firm',
+		label = 'Advokatfirman',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Associate',
+                name = 'Delägare',
                 payment = 50
             },
         },
 	},
 	['reporter'] = {
-		label = 'Reporter',
+		label = 'Aftonbladet',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -225,56 +225,56 @@ QBShared.Jobs = {
         },
 	},
 	['trucker'] = {
-		label = 'Trucker',
+		label = 'DHL',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Driver',
+                name = 'Lastbilschaufför',
                 payment = 50
             },
         },
 	},
 	['tow'] = {
-		label = 'Towing',
+		label = 'Bärgarn',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Driver',
+                name = 'Bärgare',
                 payment = 50
             },
         },
 	},
 	['garbage'] = {
-		label = 'Garbage',
+		label = 'Sophanteringen',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Collector',
+                name = 'Sophämtare',
                 payment = 50
             },
         },
 	},
 	['vineyard'] = {
-		label = 'Vineyard',
+		label = 'Vinträdgården',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Picker',
+                name = 'Plockare',
                 payment = 50
             },
         },
 	},
 	['hotdog'] = {
-		label = 'Hotdog',
+		label = 'Korvmojjen',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Sales',
+                name = 'Säljare',
                 payment = 50
             },
         },
