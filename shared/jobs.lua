@@ -124,7 +124,7 @@ QBShared.Jobs = {
             },
         },
 	},
-     ['bus'] = {
+    ['bus'] = {
 		label = 'Busschaufför',
 		defaultDuty = true,
 		offDutyPay = false,
@@ -225,12 +225,12 @@ QBShared.Jobs = {
         },
 	},
 	['trucker'] = {
-		label = 'DHL',
+		label = 'Postnord',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Lastbilschaufför',
+                name = 'Budbärare',
                 payment = 50
             },
         },
@@ -275,6 +275,17 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Säljare',
+                payment = 50
+            },
+        },
+	},
+    ['lumberjack'] = {
+		label = 'Skogshuggare',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Skogshuggare',
                 payment = 50
             },
         },
