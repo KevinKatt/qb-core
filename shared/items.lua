@@ -447,7 +447,7 @@ QBShared.Items = {
 	['bennyskey']					= {['name'] = 'bennyskey', 			  		  	['label'] = 'Bennys Nyckel', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'labkey.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'Nyckel till Bennys lokaler'},
 	
 	
-	["head_bag"] 					= {["name"] = "head_bag", 			 			["label"] = "Påse", 					["weight"] = 5, 		["type"] = "item", 		["image"] = "head_bag.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,  	["combinable"] = nil,   ["description"] = "En påse som är svår att se igenom, tror inte nån skulle se nåt om de hade den här över huvudet."},
+	["head_bag"] 					= {["name"] = "head_bag", 			 			["label"] = "ICA Plastpåse", 					["weight"] = 5, 		["type"] = "item", 		["image"] = "head_bag.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,  	["combinable"] = nil,   ["description"] = "En påse som är svår att se igenom, tror inte nån skulle se nåt om de hade den här över huvudet."},
 
 	--LUMBERJACK
 	["tree_lumber"]						= {["name"] = "tree_lumber",  	  		["label"] = "Lumber",	  		["weight"] = 50, 		["type"] = "item", 		["image"] = "lumber.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
