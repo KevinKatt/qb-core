@@ -728,5 +728,17 @@ QBShared.Items = {
 	['shouldClose'] = false,
 	['combinable'] = nil,
 	['description'] = 'This is a car key, take good care of it, if you lose it you probably won\'t be able to use your car'
-}
+},
+["duffel-bag"] = {
+	["name"] = "duffel-bag",
+	["label"] = "Bag",
+	["weight"] = 5000,
+	["type"] = "item",
+	["image"] = "duffel.png",
+	["unique"] = true,
+	["useable"] = true,
+	["shouldClose"] = false,
+	["combinable"] = nil,   
+	["description"] = "im bag im baag im baaaaag"
+	}
 }

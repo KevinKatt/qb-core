@@ -5945,6 +5945,15 @@ QBShared.Vehicles = {
 		['hash'] = `lykan`,
 		['shop'] = 'luxury',
 	},
+	['ct200h'] = {
+		['name'] = 'Lexus CT200h',
+		['brand'] = 'lexus',
+		['model'] = 'ct200h',
+		['price'] = 185000,
+		['category'] = 'lexus',
+		['hash'] = `ct200h`,
+		['shop'] = 'luxury',
+	},
 }
 
 for k,v in pairs(QBShared.Vehicles) do
